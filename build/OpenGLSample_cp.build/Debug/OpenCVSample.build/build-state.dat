@@ -1,0 +1,288 @@
+TOpenCVSample
+v7
+r0
+t323167570.386563
+cCheck dependencies
+cProcessInfoPlistFile /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/Info.plist OpenCVSample-Info.plist
+cCpResource build/Debug/OpenCVSample.app/Contents/Resources/haarcascade_frontalface_alt.xml haarcascade_frontalface_alt.xml
+cCpResource build/Debug/OpenCVSample.app/Contents/Resources/haarcascade_eye_tree_eyeglasses.xml haarcascade_eye_tree_eyeglasses.xml
+cCompileC build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.o /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample normal i386
+cTouch /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004A124745000000000000578C
+t1242711877
+s22412
+
+N/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004A12475500000000001A2920
+t1242711893
+s1714464
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004D6EE4250000000000043330
+t1299112997
+s275248
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/../../OpenCV-2.1.0/lib/Release/libcv.dylib
+c000000004D725E3300000000002C4778
+t1299340851
+s2901880
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/../../OpenCV-2.1.0/lib/Release/libcvaux.dylib
+c000000004D725EBA000000000013F5E0
+t1299340986
+s1308128
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/../../OpenCV-2.1.0/lib/Release/libcxcore.dylib
+c000000004D725DD100000000002E0274
+t1299340753
+s3015284
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/../../OpenCV-2.1.0/lib/Release/libhighgui.dylib
+c000000004D725E5300000000000F4648
+t1299340883
+s1001032
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp
+c000000004D92EDCD0000000000001A3B
+t1301474765
+s6715
+i"OpenCVSample.h"
+i<iostream>
+i<cstdio>
+i<cstdlib>
+i<stdio.h>
+i<stdlib.h>
+i<ctype.h>
+i<GLUT/glut.h>
+i<cv.h>
+i<highgui.h>
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.h
+c000000004D7382C400000000000000B0
+t1299415748
+s176
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app
+t1301474770
+s102
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/Info.plist
+t1301450141
+s1228
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample
+t1301474770
+s50132
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/PkgInfo
+t1301450141
+s8
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/Resources/haarcascade_eye_tree_eyeglasses.xml
+t1299344886
+s1095035
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/Resources/haarcascade_frontalface_alt.xml
+t1299344886
+s919871
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample
+t1301467535
+s50132
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.LinkFileList
+c000000004D92921B000000000000008C
+t1301451291
+s140
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.o
+t1301474767
+s208768
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/x86_64/OpenCVSample
+t2
+s0
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/x86_64/OpenCVSample.LinkFileList
+c000000004D92D0D5000000000000008E
+t1301467349
+s142
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/x86_64/OpenCVSample.o
+t1301467533
+s213556
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/haarcascade_eye_tree_eyeglasses.xml
+c000000004BBA8D56000000000010B57B
+t1270517078
+s1095035
+
+N/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/haarcascade_frontalface_alt.xml
+c000000004BBA8D5600000000000E093F
+t1270517078
+s919871
+
+N/usr/local/include/GL/gl.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/usr/local/include/opencv/cv.h
+c000000004BBA8D580000000000011ABF
+t1270517080
+s72383
+
+N/usr/local/include/opencv/highgui.h
+c000000004BBA8D5800000000000048A6
+t1270517080
+s18598
+
+NOpenCVSample-Info.plist
+c000000004D6E7CEB000000000000037F
+t1299086571
+s895
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323167570#323167570#0(0"0(0#1#0"2565690000#0"0#
+
+CCompileC build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.o /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s323167570.328514
+e323167570.329636
+r1
+xCompileC
+xbuild/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.o
+x/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp323167570#323167570#0(0"0(0#0#68"/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp2565690000#1551"    cd /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/OpenCVSample-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/OpenCVSample-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/OpenCVSample-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/OpenCVSample-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug -I/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/include -I/usr/local/include/opencv -I/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/DerivedSources -c /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp -o /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.o0#
+
+CCompileC build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/x86_64/OpenCVSample.o /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s323160333.993209
+e323160333.994526
+r1
+xCompileC
+xbuild/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/x86_64/OpenCVSample.o
+x/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp323160333#323160333#0(0"0(0#0#68"/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp2565690000#1557"    cd /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/OpenCVSample-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/OpenCVSample-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/OpenCVSample-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/OpenCVSample-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug -I/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/include -I/usr/local/include/opencv -I/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/DerivedSources/x86_64 -I/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/DerivedSources -c /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp -o /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/x86_64/OpenCVSample.o0#
+
+CCpResource build/Debug/OpenCVSample.app/Contents/Resources/haarcascade_eye_tree_eyeglasses.xml haarcascade_eye_tree_eyeglasses.xml
+r0
+
+CCpResource build/Debug/OpenCVSample.app/Contents/Resources/haarcascade_frontalface_alt.xml haarcascade_frontalface_alt.xml
+r0
+
+CCreateUniversalBinary /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample normal "x86_64 i386"
+r0
+
+CLd /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample normal i386
+s323167570.329696
+e323167570.383660
+r1
+xLd
+x/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample
+xnormal
+xi386
+lSLF07#2@113"Link /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample323167570#323167570#0(0"0(0#0#0"2565690000#805"    cd /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug -L/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/../../OpenCV-2.1.0/lib/Release -F/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug -filelist /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework OpenGL -framework GLUT -lcv -lcxcore -lhighgui -lcvaux -o /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample0#
+
+CLd /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample normal i386
+s323160335.140642
+e323160335.854493
+r1
+xLd
+x/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample
+xnormal
+xi386
+lSLF07#2@142"Link /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample323160335#323160335#0(0"0(0#0#0"2565690000#834"    cd /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug -L/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/../../OpenCV-2.1.0/lib/Release -F/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug -filelist /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework OpenGL -framework GLUT -lcv -lcxcore -lhighgui -lcvaux -o /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample0#
+
+CLd /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/x86_64/OpenCVSample normal x86_64
+s323163097.151618
+e323163097.601325
+r0
+xLd
+x/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/x86_64/OpenCVSample
+xnormal
+xx86_64
+old: warning: in /Users/kikugawamariko/OpenCV-2.1.0/lib/Release/libcv.dylib, file was built for i386 which is not the architecture being linked (x86_64)
+old: warning: in /Users/kikugawamariko/OpenCV-2.1.0/lib/Release/libcxcore.dylib, file was built for i386 which is not the architecture being linked (x86_64)
+old: warning: in /Users/kikugawamariko/OpenCV-2.1.0/lib/Release/libhighgui.dylib, file was built for i386 which is not the architecture being linked (x86_64)
+old: warning: in /Users/kikugawamariko/OpenCV-2.1.0/lib/Release/libcvaux.dylib, file was built for i386 which is not the architecture being linked (x86_64)
+oUndefined symbols:
+o  "_cvGetTickFrequency", referenced from:
+o      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o
+o  "cv::cvtColor(cv::Mat const&, cv::Mat&, int, int)", referenced from:
+o      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o
+o  "_cvCreateFileCapture", referenced from:
+o      idle()    in OpenCVSample.o
+o  "cv::flip(cv::Mat const&, cv::Mat&, int)", referenced from:
+o      idle()    in OpenCVSample.o
+o  "cv::fastFree(void*)", referenced from:
+o      cv::Mat::release()    in OpenCVSample.o
+o  "cv::CascadeClassifier::~CascadeClassifier()", referenced from:
+o      ___tcf_11 in OpenCVSample.o
+o      ___tcf_10 in OpenCVSample.o
+o  "_cvQueryFrame", referenced from:
+o      idle()    in OpenCVSample.o
+o  "cv::format(char const*, ...)", referenced from:
+o      cv::Exception::formatMessage()     in OpenCVSample.o
+o      cv::Exception::formatMessage()     in OpenCVSample.o
+o  "cv::equalizeHist(cv::Mat const&, cv::Mat&)", referenced from:
+o      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o
+o  "cv::fastMalloc(unsigned long)", referenced from:
+o      cv::Mat::create(int, int, int)in OpenCVSample.o
+o  "cv::Mat::copyTo(cv::Mat&) const", referenced from:
+o      idle()    in OpenCVSample.o
+o  "cv::waitKey(int)", referenced from:
+o      idle()    in OpenCVSample.o
+o      idle()    in OpenCVSample.o
+o  "cv::resize(cv::Mat const&, cv::Mat&, cv::Size_<int>, double, double, int)", referenced from:
+o      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o
+o  "cv::CascadeClassifier::detectMultiScale(cv::Mat const&, std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >&, double, int, int, cv::Size_<int>)", referenced from:
+o      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o
+o  "cv::Mat::Mat(_IplImage const*, bool)", referenced from:
+o      idle()    in OpenCVSample.o
+o  "_cvGetTickCount", referenced from:
+o      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o
+o      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o
+o  "cv::CascadeClassifier::load(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)", referenced from:
+o      idle()    in OpenCVSample.o
+o  "cv::CascadeClassifier::CascadeClassifier()", referenced from:
+o      __static_initialization_and_destruction_0(int, int)in OpenCVSample.o
+o      __static_initialization_and_destruction_0(int, int)in OpenCVSample.o
+o  "cv::error(cv::Exception const&)", referenced from:
+o      cv::Mat::create(int, int, int)in OpenCVSample.o
+o  "_cvCreateCameraCapture", referenced from:
+o      idle()    in OpenCVSample.o
+o  "cv::imread(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)", referenced from:
+o      idle()    in OpenCVSample.o
+o      idle()    in OpenCVSample.o
+o      idle()    in OpenCVSample.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@144"Link /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/x86_64/OpenCVSample323163097#323163097#0(3720"ld: warning: in /Users/kikugawamariko/OpenCV-2.1.0/lib/Release/libcv.dylib, file was built for i386 which is not the architecture being linked (x86_64)ld: warning: in /Users/kikugawamariko/OpenCV-2.1.0/lib/Release/libcxcore.dylib, file was built for i386 which is not the architecture being linked (x86_64)ld: warning: in /Users/kikugawamariko/OpenCV-2.1.0/lib/Release/libhighgui.dylib, file was built for i386 which is not the architecture being linked (x86_64)ld: warning: in /Users/kikugawamariko/OpenCV-2.1.0/lib/Release/libcvaux.dylib, file was built for i386 which is not the architecture being linked (x86_64)Undefined symbols:  "_cvGetTickFrequency", referenced from:      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o  "cv::cvtColor(cv::Mat const&, cv::Mat&, int, int)", referenced from:      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o  "_cvCreateFileCapture", referenced from:      idle()    in OpenCVSample.o  "cv::flip(cv::Mat const&, cv::Mat&, int)", referenced from:      idle()    in OpenCVSample.o  "cv::fastFree(void*)", referenced from:      cv::Mat::release()    in OpenCVSample.o  "cv::CascadeClassifier::~CascadeClassifier()", referenced from:      ___tcf_11 in OpenCVSample.o      ___tcf_10 in OpenCVSample.o  "_cvQueryFrame", referenced from:      idle()    in OpenCVSample.o  "cv::format(char const*, ...)", referenced from:      cv::Exception::formatMessage()     in OpenCVSample.o      cv::Exception::formatMessage()     in OpenCVSample.o  "cv::equalizeHist(cv::Mat const&, cv::Mat&)", referenced from:      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o  "cv::fastMalloc(unsigned long)", referenced from:      cv::Mat::create(int, int, int)in OpenCVSample.o  "cv::Mat::copyTo(cv::Mat&) const", referenced from:      idle()    in OpenCVSample.o  "cv::waitKey(int)", referenced from:      idle()    in OpenCVSample.o      idle()    in OpenCVSample.o  "cv::resize(cv::Mat const&, cv::Mat&, cv::Size_<int>, double, double, int)", referenced from:      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o  "cv::CascadeClassifier::detectMultiScale(cv::Mat const&, std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >&, double, int, int, cv::Size_<int>)", referenced from:      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o  "cv::Mat::Mat(_IplImage const*, bool)", referenced from:      idle()    in OpenCVSample.o  "_cvGetTickCount", referenced from:      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o      detectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o  "cv::CascadeClassifier::load(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)", referenced from:      idle()    in OpenCVSample.o  "cv::CascadeClassifier::CascadeClassifier()", referenced from:      __static_initialization_and_destruction_0(int, int)in OpenCVSample.o      __static_initialization_and_destruction_0(int, int)in OpenCVSample.o  "cv::error(cv::Exception const&)", referenced from:      cv::Mat::create(int, int, int)in OpenCVSample.o  "_cvCreateCameraCapture", referenced from:      idle()    in OpenCVSample.o  "cv::imread(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)", referenced from:      idle()    in OpenCVSample.o      idle()    in OpenCVSample.o      idle()    in OpenCVSample.old: symbol(s) not foundcollect2: ld returned 1 exit status55(22@138"In /Users/kikugawamariko/OpenCV-2.1.0/lib/Release/libcv.dylib, file was built for i386 which is not the architecture being linked (x86_64)323163097#0#152#0(6@0"323163097#0#0#0#0#0"0(22@142"In /Users/kikugawamariko/OpenCV-2.1.0/lib/Release/libcxcore.dylib, file was built for i386 which is not the architecture being linked (x86_64)323163097#152#156#0(6@0"323163097#0#0#0#0#0"0(22@143"In /Users/kikugawamariko/OpenCV-2.1.0/lib/Release/libhighgui.dylib, file was built for i386 which is not the architecture being linked (x86_64)323163097#308#157#0(6@0"323163097#0#0#0#0#0"0(22@141"In /Users/kikugawamariko/OpenCV-2.1.0/lib/Release/libcvaux.dylib, file was built for i386 which is not the architecture being linked (x86_64)323163097#465#155#0(6@0"323163097#0#0#0#0#0"0(4@39""_cvGetTickFrequency", referenced from:323163097#639#42#0(6@0"323163097#0#0#0#0#0"0(13@96"DetectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o323163097#681#103#0(6@0"323163097#0#0#0#0#0"0(4@68""cv::cvtColor(cv::Mat const&, cv::Mat&, int, int)", referenced from:323163097#784#71#0(6@0"323163097#0#0#0#0#0"0(13@96"DetectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o323163097#855#103#0(6@0"323163097#0#0#0#0#0"0(4@40""_cvCreateFileCapture", referenced from:323163097#958#43#0(6@0"323163097#0#0#0#0#0"0(13@27"Idle()    in OpenCVSample.o323163097#1001#34#0(6@0"323163097#0#0#0#0#0"0(4@59""cv::flip(cv::Mat const&, cv::Mat&, int)", referenced from:323163097#1035#62#0(6@0"323163097#0#0#0#0#0"0(13@27"Idle()    in OpenCVSample.o323163097#1097#34#0(6@0"323163097#0#0#0#0#0"0(4@39""cv::fastFree(void*)", referenced from:323163097#1131#42#0(6@0"323163097#0#0#0#0#0"0(13@39"Cv::Mat::release()    in OpenCVSample.o323163097#1173#46#0(6@0"323163097#0#0#0#0#0"0(4@63""cv::CascadeClassifier::~CascadeClassifier()", referenced from:323163097#1219#66#0(6@0"323163097#0#0#0#0#0"0(13@27"___tcf_11 in OpenCVSample.o323163097#1285#34#0(6@0"323163097#0#0#0#0#0"0(13@27"___tcf_10 in OpenCVSample.o323163097#1319#34#0(6@0"323163097#0#0#0#0#0"0(4@33""_cvQueryFrame", referenced from:323163097#1353#36#0(6@0"323163097#0#0#0#0#0"0(13@27"Idle()    in OpenCVSample.o323163097#1389#34#0(6@0"323163097#0#0#0#0#0"0(4@48""cv::format(char const*, ...)", referenced from:323163097#1423#51#0(6@0"323163097#0#0#0#0#0"0(13@52"Cv::Exception::formatMessage()     in OpenCVSample.o323163097#1474#59#0(6@0"323163097#0#0#0#0#0"0(13@52"Cv::Exception::formatMessage()     in OpenCVSample.o323163097#1533#59#0(6@0"323163097#0#0#0#0#0"0(4@62""cv::equalizeHist(cv::Mat const&, cv::Mat&)", referenced from:323163097#1592#65#0(6@0"323163097#0#0#0#0#0"0(13@96"DetectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o323163097#1657#103#0(6@0"323163097#0#0#0#0#0"0(4@49""cv::fastMalloc(unsigned long)", referenced from:323163097#1760#52#0(6@0"323163097#0#0#0#0#0"0(13@47"Cv::Mat::create(int, int, int)in OpenCVSample.o323163097#1812#54#0(6@0"323163097#0#0#0#0#0"0(4@51""cv::Mat::copyTo(cv::Mat&) const", referenced from:323163097#1866#54#0(6@0"323163097#0#0#0#0#0"0(13@27"Idle()    in OpenCVSample.o323163097#1920#34#0(6@0"323163097#0#0#0#0#0"0(4@36""cv::waitKey(int)", referenced from:323163097#1954#39#0(6@0"323163097#0#0#0#0#0"0(13@27"Idle()    in OpenCVSample.o323163097#1993#34#0(6@0"323163097#0#0#0#0#0"0(13@27"Idle()    in OpenCVSample.o323163097#2027#34#0(6@0"323163097#0#0#0#0#0"0(4@93""cv::resize(cv::Mat const&, cv::Mat&, cv::Size_<int>, double, double, int)", referenced from:323163097#2061#96#0(6@0"323163097#0#0#0#0#0"0(13@96"DetectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o323163097#2157#103#0(6@0"323163097#0#0#0#0#0"0(4@173""cv::CascadeClassifier::detectMultiScale(cv::Mat const&, std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >&, double, int, int, cv::Size_<int>)", referenced from:323163097#2260#176#0(6@0"323163097#0#0#0#0#0"0(13@96"DetectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o323163097#2436#103#0(6@0"323163097#0#0#0#0#0"0(4@56""cv::Mat::Mat(_IplImage const*, bool)", referenced from:323163097#2539#59#0(6@0"323163097#0#0#0#0#0"0(13@27"Idle()    in OpenCVSample.o323163097#2598#34#0(6@0"323163097#0#0#0#0#0"0(4@35""_cvGetTickCount", referenced from:323163097#2632#38#0(6@0"323163097#0#0#0#0#0"0(13@96"DetectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o323163097#2670#103#0(6@0"323163097#0#0#0#0#0"0(13@96"DetectAndDraw(cv::Mat&, cv::CascadeClassifier&, cv::CascadeClassifier&, double)in OpenCVSample.o323163097#2773#103#0(6@0"323163097#0#0#0#0#0"0(4@126""cv::CascadeClassifier::load(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)", referenced from:323163097#2876#129#0(6@0"323163097#0#0#0#0#0"0(13@27"Idle()    in OpenCVSample.o323163097#3005#34#0(6@0"323163097#0#0#0#0#0"0(4@62""cv::CascadeClassifier::CascadeClassifier()", referenced from:323163097#3039#65#0(6@0"323163097#0#0#0#0#0"0(13@68"__static_initialization_and_destruction_0(int, int)in OpenCVSample.o323163097#3104#75#0(6@0"323163097#0#0#0#0#0"0(13@68"__static_initialization_and_destruction_0(int, int)in OpenCVSample.o323163097#3179#75#0(6@0"323163097#0#0#0#0#0"0(4@51""cv::error(cv::Exception const&)", referenced from:323163097#3254#54#0(6@0"323163097#0#0#0#0#0"0(13@47"Cv::Mat::create(int, int, int)in OpenCVSample.o323163097#3308#54#0(6@0"323163097#0#0#0#0#0"0(4@42""_cvCreateCameraCapture", referenced from:323163097#3362#45#0(6@0"323163097#0#0#0#0#0"0(13@27"Idle()    in OpenCVSample.o323163097#3407#34#0(6@0"323163097#0#0#0#0#0"0(4@114""cv::imread(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)", referenced from:323163097#3441#117#0(6@0"323163097#0#0#0#0#0"0(13@27"Idle()    in OpenCVSample.o323163097#3558#34#0(6@0"323163097#0#0#0#0#0"0(13@27"Idle()    in OpenCVSample.o323163097#3592#34#0(6@0"323163097#0#0#0#0#0"0(13@27"Idle()    in OpenCVSample.o323163097#3626#34#0(6@0"323163097#0#0#0#0#0"0(13@19"Symbol(s) not found323163097#3660#24#0(6@0"323163097#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status323163097#3684#36#0(6@0"323163097#0#0#0#0#0"0(0#0#0"2565690000#840"    cd /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug -L/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/../../OpenCV-2.1.0/lib/Release -F/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug -filelist /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/x86_64/OpenCVSample.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework OpenGL -framework GLUT -lcv -lcxcore -lhighgui -lcvaux -o /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/OpenGLSample_cp.build/Debug/OpenCVSample.build/Objects-normal/x86_64/OpenCVSample1#
+
+CProcessInfoPlistFile /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/Info.plist OpenCVSample-Info.plist
+r0
+
+CTouch /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app
+s323167570.383747
+e323167570.386521
+r1
+xTouch
+x/Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app
+lSLF07#2@86"Touch /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app323167570#323167570#0(0"0(0#0#0"2565690000#162"    cd /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp    /usr/bin/touch -c /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app0#
+
