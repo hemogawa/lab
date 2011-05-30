@@ -12,17 +12,53 @@
 #define WIN32
 #endif
 
+#define MODE_SPOT 0
+#define MODE_LINE 1
+
 using namespace std;
 using namespace cv;
 bool first = true;
 int clearCir=90;
 int mouseX = 50, mouseY = 50;
+int mode =MODE_SPOT;
 
 struct colors {
 	double r;
 	double g;
 	double b;
 };
+
+void drawClearLine(void *dstImg, IplImage *clImg, IplImage *gauImg, int x, int y, int radius){
+	ColorSetting colorSetting;
+	int i,j;
+	struct colors clearColors = { 0, 0, 0};
+	struct colors gauseColors = { 0, 0, 0};
+	for(i=0; i<=radius; i++){
+		for(j=0; j<=700; j++){
+			if(y+i+radius < clImg->height){
+				colorSetting.getRGB(clImg, j, y+i, &clearColors.r, &clearColors.g, &clearColors.b);
+				cvSet2D(dstImg,i+y,j,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
+			}
+			if(y-i-radius > 0){
+				colorSetting.getRGB(clImg, j, y-i, &clearColors.r, &clearColors.g, &clearColors.b);
+				cvSet2D(dstImg,y-i,j,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
+			}
+		}
+	}
+	cvShowImage("dst", dstImg);
+	for(i=0; i<=radius; i++){
+		for(j=0; j<=700; j++){
+			if(y+i+radius < clImg->height){
+				colorSetting.getRGB(gauImg, j, y+i, &gauseColors.r, &gauseColors.g, &gauseColors.b);
+				cvSet2D(dstImg,i+y,j,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
+			}
+			if(y-i-radius > 0){
+				colorSetting.getRGB(gauImg, j, y-i, &gauseColors.r, &gauseColors.g, &gauseColors.b);
+				cvSet2D(dstImg,y-i,j,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
+			}
+		}
+	}	
+}
 
 void drawClearSpot(void *dstImg, IplImage *clImg, IplImage *gauImg, int x, int y, int radius){
 	ColorSetting colorSetting;
@@ -79,8 +115,13 @@ void Mouse(int event, int x, int y, int flags, void *dstImage){
 	mouseX = x; mouseY = y;
 	ColorSetting colorSetting;
 	int i=0,j=0;
-	if (event == CV_EVENT_MOUSEMOVE) 
-		drawClearSpot(dstImage, srcImage, gauImage, x, y, clearCir);
+	if (event == CV_EVENT_MOUSEMOVE){ 
+		if(mode == MODE_SPOT){
+			drawClearSpot(dstImage, srcImage, gauImage, x, y, clearCir);			
+		}else if(mode == MODE_LINE){
+			drawClearLine(dstImage, srcImage, gauImage, x, y, clearCir);			
+		}
+	}
 }
 
 int detectAndDraw( Mat& img,
@@ -248,7 +289,11 @@ int main( int argc, const char** argv )
 					//system(buff);
 				}
 				clearCir = 90 - (zoomeStep * 5);
-				drawClearSpot(dstImage, srcImage, gauImage, mouseX, mouseY, clearCir);
+				if(mode == MODE_SPOT){
+					drawClearSpot(dstImage, srcImage, gauImage, mouseX, mouseY, clearCir);
+				}else if(mode == MODE_LINE){
+					drawClearLine(dstImage, srcImage, gauImage, mouseX, mouseY, clearCir);
+				}
 			}
 			/*fp = fopen("scripts/log.txt","a");
 			fprintf(fp,"%d->%d\n",baseWidth,width);

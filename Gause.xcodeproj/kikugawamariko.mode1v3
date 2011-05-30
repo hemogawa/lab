@@ -325,7 +325,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3C8C458513943647002395D0</string>
+										<string>3C8C45CC1394418F002395D0</string>
 										<key>history</key>
 										<array>
 											<string>3C3A88531322B9AF0078C2D6</string>
@@ -337,7 +337,7 @@
 											<string>3C8C445D1393A3CF002395D0</string>
 											<string>3C8C44CE1393B90A002395D0</string>
 											<string>3C8C44D51393B961002395D0</string>
-											<string>3C8C456413942766002395D0</string>
+											<string>3C8C459E13943DB6002395D0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -538,8 +538,8 @@
 		<string>3C8C44131393859A002395D0</string>
 		<string>3C8C44141393859A002395D0</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3CB63865131EB5A3002D8135</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Users/kikugawamariko/XCodeProjects/Gause_single/Gause.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -759,7 +759,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

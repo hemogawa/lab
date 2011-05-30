@@ -5,7 +5,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 59";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 498;
 		vrLoc = 0;
@@ -84,7 +84,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 59";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 37;
@@ -100,7 +100,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {558, 320}}";
 			sepNavSelRange = "{420, 0}";
-			sepNavVisRange = "{132, 366}";
+			sepNavVisRange = "{132, 364}";
 		};
 	};
 	3C8C44021393859A002395D0 /* PBXTextBookmark */ = {
@@ -108,7 +108,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 19";
 		rLen = 0;
-		rLoc = 301;
+		rLoc = 363;
 		rType = 0;
 		vrLen = 387;
 		vrLoc = 159;
@@ -179,7 +179,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 82;
+		rLoc = 123;
 		rType = 1;
 	};
 	3C8C4421139387B7002395D0 /* PBXTextBookmark */ = {
@@ -187,7 +187,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 53";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 598;
 		vrLoc = 984;
@@ -218,7 +218,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 82;
+		rLoc = 123;
 		rType = 1;
 	};
 	3C8C442913938839002395D0 /* PBXTextBookmark */ = {
@@ -226,7 +226,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 53";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 774;
 		vrLoc = 933;
@@ -237,7 +237,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 82;
+		rLoc = 123;
 		rType = 1;
 	};
 	3C8C442D139388C9002395D0 /* PBXTextBookmark */ = {
@@ -245,7 +245,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 53";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 673;
 		vrLoc = 994;
@@ -255,7 +255,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 53";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 984;
@@ -265,7 +265,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 53";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 806;
 		vrLoc = 1044;
@@ -305,7 +305,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 55";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 1000;
@@ -315,7 +315,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 55";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 1000;
@@ -325,7 +325,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 53";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 538;
 		vrLoc = 1184;
@@ -335,7 +335,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 55";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 1000;
@@ -372,7 +372,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 100";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 844;
 		vrLoc = 2394;
@@ -402,7 +402,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 53";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 656;
 		vrLoc = 1063;
@@ -422,7 +422,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 100";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 762;
 		vrLoc = 2476;
@@ -432,7 +432,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 119";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 449;
 		vrLoc = 1716;
@@ -442,7 +442,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 43";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 755;
 		vrLoc = 295;
@@ -462,7 +462,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 116";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 565;
 		vrLoc = 1465;
@@ -499,7 +499,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 23;
-		modificationTime = 328476549.501719;
+		modificationTime = 328483185.256243;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -528,7 +528,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 51";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 777;
 		vrLoc = 755;
@@ -538,7 +538,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 51";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 755;
@@ -548,7 +548,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 51";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 755;
@@ -558,34 +558,17 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 51";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 747;
 		vrLoc = 755;
-	};
-	3C8C44B91393B412002395D0 /* ColorSetting.cpp:28 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 3C8C43D81393818F002395D0 /* ColorSetting.cpp */;
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 28;
-		location = OpenCVSample;
-		modificationTime = 328476537.271874;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
 	};
 	3C8C44BD1393B415002395D0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 51";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 850;
@@ -624,7 +607,7 @@
 		isa = PBXTextBookmark;
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		rLen = 0;
-		rLoc = 82;
+		rLoc = 123;
 		rType = 1;
 	};
 	3C8C44C31393B49B002395D0 /* PBXTextBookmark */ = {
@@ -632,7 +615,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 46";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 834;
 		vrLoc = 850;
@@ -642,7 +625,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 46";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 594;
 		vrLoc = 787;
@@ -671,7 +654,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 46";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 594;
 		vrLoc = 787;
@@ -710,7 +693,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 51";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 777;
 		vrLoc = 694;
@@ -749,7 +732,7 @@
 		isa = PBXTextBookmark;
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		rLen = 0;
-		rLoc = 82;
+		rLoc = 123;
 		rType = 1;
 	};
 	3C8C44D71393B961002395D0 /* PBXTextBookmark */ = {
@@ -757,7 +740,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 46";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 780;
 		vrLoc = 726;
@@ -777,7 +760,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 46";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 726;
@@ -787,7 +770,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 56";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 1010;
 		vrLoc = 847;
@@ -797,7 +780,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 60";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 1331;
 		vrLoc = 1145;
@@ -807,7 +790,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 84";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 615;
 		vrLoc = 2735;
@@ -817,7 +800,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 138";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 713;
 		vrLoc = 4301;
@@ -827,7 +810,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 138";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 878;
 		vrLoc = 3010;
@@ -837,7 +820,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 43";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 674;
 		vrLoc = 372;
@@ -847,7 +830,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 74";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 1091;
 		vrLoc = 1513;
@@ -857,7 +840,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 280";
 		rLen = 0;
-		rLoc = 10179;
+		rLoc = 11683;
 		rType = 0;
 		vrLen = 486;
 		vrLoc = 9186;
@@ -867,7 +850,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 313";
 		rLen = 0;
-		rLoc = 10813;
+		rLoc = 12317;
 		rType = 0;
 		vrLen = 665;
 		vrLoc = 10024;
@@ -877,7 +860,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 223";
 		rLen = 0;
-		rLoc = 8328;
+		rLoc = 9689;
 		rType = 0;
 		vrLen = 638;
 		vrLoc = 5897;
@@ -887,7 +870,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 213";
 		rLen = 0;
-		rLoc = 7950;
+		rLoc = 9311;
 		rType = 0;
 		vrLen = 674;
 		vrLoc = 6972;
@@ -897,7 +880,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 27";
 		rLen = 0;
-		rLoc = 378;
+		rLoc = 1604;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 193;
@@ -907,7 +890,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 18";
 		rLen = 0;
-		rLoc = 268;
+		rLoc = 309;
 		rType = 0;
 		vrLen = 368;
 		vrLoc = 159;
@@ -917,7 +900,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 28";
 		rLen = 0;
-		rLoc = 450;
+		rLoc = 1676;
 		rType = 0;
 		vrLen = 790;
 		vrLoc = 2631;
@@ -927,7 +910,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 240";
 		rLen = 0;
-		rLoc = 8632;
+		rLoc = 10130;
 		rType = 0;
 		vrLen = 623;
 		vrLoc = 7960;
@@ -937,7 +920,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 19";
 		rLen = 0;
-		rLoc = 299;
+		rLoc = 340;
 		rType = 0;
 		vrLen = 425;
 		vrLoc = 172;
@@ -947,7 +930,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 33";
 		rLen = 0;
-		rLoc = 570;
+		rLoc = 1796;
 		rType = 0;
 		vrLen = 730;
 		vrLoc = 254;
@@ -957,7 +940,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 220";
 		rLen = 0;
-		rLoc = 7883;
+		rLoc = 9244;
 		rType = 0;
 		vrLen = 839;
 		vrLoc = 7352;
@@ -967,7 +950,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 298";
 		rLen = 0;
-		rLoc = 10342;
+		rLoc = 11846;
 		rType = 0;
 		vrLen = 653;
 		vrLoc = 9834;
@@ -977,7 +960,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 299";
 		rLen = 0;
-		rLoc = 10366;
+		rLoc = 11870;
 		rType = 0;
 		vrLen = 613;
 		vrLoc = 10096;
@@ -987,7 +970,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 318";
 		rLen = 0;
-		rLoc = 11016;
+		rLoc = 12520;
 		rType = 0;
 		vrLen = 617;
 		vrLoc = 10096;
@@ -997,7 +980,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 311";
 		rLen = 0;
-		rLoc = 10801;
+		rLoc = 12305;
 		rType = 0;
 		vrLen = 615;
 		vrLoc = 10096;
@@ -1007,7 +990,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 226";
 		rLen = 0;
-		rLoc = 8077;
+		rLoc = 9438;
 		rType = 0;
 		vrLen = 801;
 		vrLoc = 7507;
@@ -1027,7 +1010,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 226";
 		rLen = 0;
-		rLoc = 8077;
+		rLoc = 9438;
 		rType = 0;
 		vrLen = 841;
 		vrLoc = 7507;
@@ -1037,7 +1020,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 317";
 		rLen = 0;
-		rLoc = 11010;
+		rLoc = 12514;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 10092;
@@ -1047,7 +1030,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 315";
 		rLen = 0;
-		rLoc = 10988;
+		rLoc = 12492;
 		rType = 0;
 		vrLen = 696;
 		vrLoc = 9982;
@@ -1057,7 +1040,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 72";
 		rLen = 0;
-		rLoc = 2551;
+		rLoc = 3777;
 		rType = 0;
 		vrLen = 1006;
 		vrLoc = 1363;
@@ -1067,28 +1050,10 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 113";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 3395;
-	};
-	3C8C455F13942745002395D0 /* OpenCVSample.cpp:113 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
-		functionName = "main( int argc, const char** argv )";
-		hitCount = 1;
-		ignoreCount = 0;
-		lineNumber = 113;
-		location = OpenCVSample;
-		modificationTime = 328476538.402057;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
 	};
 	3C8C456313942762002395D0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1105,7 +1070,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 113";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 3395;
@@ -1115,7 +1080,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 113";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 3395;
@@ -1125,7 +1090,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 113";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 846;
 		vrLoc = 3395;
@@ -1135,7 +1100,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 113";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 3395;
@@ -1145,7 +1110,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 77";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 606;
 		vrLoc = 2549;
@@ -1155,7 +1120,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 217";
 		rLen = 0;
-		rLoc = 7511;
+		rLoc = 8872;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 2652;
@@ -1165,7 +1130,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 250";
 		rLen = 0;
-		rLoc = 8567;
+		rLoc = 9928;
 		rType = 0;
 		vrLen = 613;
 		vrLoc = 8252;
@@ -1185,10 +1150,170 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 250";
 		rLen = 0;
-		rLoc = 8567;
+		rLoc = 9928;
 		rType = 0;
 		vrLen = 616;
 		vrLoc = 8252;
+	};
+	3C8C458613943A65002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 27";
+		rLen = 0;
+		rLoc = 435;
+		rType = 0;
+		vrLen = 810;
+		vrLoc = 271;
+	};
+	3C8C458913943B62002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 292";
+		rLen = 0;
+		rLoc = 10171;
+		rType = 0;
+		vrLen = 814;
+		vrLoc = 9704;
+	};
+	3C8C458D13943C09002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 46";
+		rLen = 0;
+		rLoc = 1169;
+		rType = 0;
+		vrLen = 741;
+		vrLoc = 351;
+	};
+	3C8C459213943C91002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 53";
+		rLen = 0;
+		rLoc = 1512;
+		rType = 0;
+		vrLen = 780;
+		vrLoc = 754;
+	};
+	3C8C459E13943DB6002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 53";
+		rLen = 0;
+		rLoc = 1512;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 318;
+	};
+	3C8C459F13943DB6002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 53";
+		rLen = 0;
+		rLoc = 1512;
+		rType = 0;
+		vrLen = 800;
+		vrLoc = 450;
+	};
+	3C8C45A313943E2F002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 53";
+		rLen = 0;
+		rLoc = 1512;
+		rType = 0;
+		vrLen = 800;
+		vrLoc = 450;
+	};
+	3C8C45A813943E66002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 53";
+		rLen = 0;
+		rLoc = 1512;
+		rType = 0;
+		vrLen = 800;
+		vrLoc = 450;
+	};
+	3C8C45AE13943E8F002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 33";
+		rLen = 0;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 789;
+		vrLoc = 450;
+	};
+	3C8C45B313943EBC002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 33";
+		rLen = 0;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 318;
+		vrLoc = 0;
+	};
+	3C8C45B813943EE0002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 46";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 636;
+		vrLoc = 1014;
+	};
+	3C8C45BC13943F20002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 33";
+		rLen = 0;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 596;
+		vrLoc = 254;
+	};
+	3C8C45C013943F4A002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 46";
+		rLen = 0;
+		rLoc = 1160;
+		rType = 0;
+		vrLen = 696;
+		vrLoc = 822;
+	};
+	3C8C45C613944132002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 121";
+		rLen = 0;
+		rLoc = 4229;
+		rType = 0;
+		vrLen = 647;
+		vrLoc = 3779;
+	};
+	3C8C45CA13944150002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 23";
+		rLen = 0;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 450;
+		vrLoc = 234;
+	};
+	3C8C45CC1394418F002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 23";
+		rLen = 0;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 617;
+		vrLoc = 295;
 	};
 	3CB63831131EB458002D8135 /* Project object */ = {
 		activeArchitecturePreference = i386;
@@ -1200,8 +1325,6 @@
 		);
 		breakpoints = (
 			3C8C44A21393B333002395D0 /* ColorSetting.h:23 */,
-			3C8C44B91393B412002395D0 /* ColorSetting.cpp:28 */,
-			3C8C455F13942745002395D0 /* OpenCVSample.cpp:113 */,
 		);
 		codeSenseManager = 3CB63836131EB458002D8135 /* Code sense */;
 		executables = (
@@ -1369,6 +1492,22 @@
 			3C8C458113943582002395D0 /* PBXTextBookmark */ = 3C8C458113943582002395D0 /* PBXTextBookmark */;
 			3C8C458413943644002395D0 /* PBXTextBookmark */ = 3C8C458413943644002395D0 /* PBXTextBookmark */;
 			3C8C458513943647002395D0 /* PBXTextBookmark */ = 3C8C458513943647002395D0 /* PBXTextBookmark */;
+			3C8C458613943A65002395D0 /* PBXTextBookmark */ = 3C8C458613943A65002395D0 /* PBXTextBookmark */;
+			3C8C458913943B62002395D0 /* PBXTextBookmark */ = 3C8C458913943B62002395D0 /* PBXTextBookmark */;
+			3C8C458D13943C09002395D0 /* PBXTextBookmark */ = 3C8C458D13943C09002395D0 /* PBXTextBookmark */;
+			3C8C459213943C91002395D0 /* PBXTextBookmark */ = 3C8C459213943C91002395D0 /* PBXTextBookmark */;
+			3C8C459E13943DB6002395D0 /* PBXTextBookmark */ = 3C8C459E13943DB6002395D0 /* PBXTextBookmark */;
+			3C8C459F13943DB6002395D0 /* PBXTextBookmark */ = 3C8C459F13943DB6002395D0 /* PBXTextBookmark */;
+			3C8C45A313943E2F002395D0 /* PBXTextBookmark */ = 3C8C45A313943E2F002395D0 /* PBXTextBookmark */;
+			3C8C45A813943E66002395D0 /* PBXTextBookmark */ = 3C8C45A813943E66002395D0 /* PBXTextBookmark */;
+			3C8C45AE13943E8F002395D0 /* PBXTextBookmark */ = 3C8C45AE13943E8F002395D0 /* PBXTextBookmark */;
+			3C8C45B313943EBC002395D0 /* PBXTextBookmark */ = 3C8C45B313943EBC002395D0 /* PBXTextBookmark */;
+			3C8C45B813943EE0002395D0 /* PBXTextBookmark */ = 3C8C45B813943EE0002395D0 /* PBXTextBookmark */;
+			3C8C45BC13943F20002395D0 /* PBXTextBookmark */ = 3C8C45BC13943F20002395D0 /* PBXTextBookmark */;
+			3C8C45C013943F4A002395D0 /* PBXTextBookmark */ = 3C8C45C013943F4A002395D0 /* PBXTextBookmark */;
+			3C8C45C613944132002395D0 /* PBXTextBookmark */ = 3C8C45C613944132002395D0 /* PBXTextBookmark */;
+			3C8C45CA13944150002395D0 /* PBXTextBookmark */ = 3C8C45CA13944150002395D0 /* PBXTextBookmark */;
+			3C8C45CC1394418F002395D0 /* PBXTextBookmark */ = 3C8C45CC1394418F002395D0 /* PBXTextBookmark */;
 			3CE58B451354187500987C32 = 3CE58B451354187500987C32 /* PBXTextBookmark */;
 			3CE58B471354187500987C32 = 3CE58B471354187500987C32 /* PBXTextBookmark */;
 			3CE58B4A1354187500987C32 = 3CE58B4A1354187500987C32 /* PBXTextBookmark */;
@@ -1404,7 +1543,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -1447,9 +1586,9 @@
 	};
 	3CB6384D131EB555002D8135 /* OpenCVSample.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {670, 4641}}";
-			sepNavSelRange = "{8567, 0}";
-			sepNavVisRange = "{8252, 616}";
+			sepNavIntBoundsRect = "{{0, 0}, {705, 5434}}";
+			sepNavSelRange = "{361, 0}";
+			sepNavVisRange = "{295, 617}";
 		};
 	};
 	3CE58B451354187500987C32 /* PBXTextBookmark */ = {
@@ -1491,7 +1630,7 @@
 		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
 		name = "OpenCVSample.cpp: 59";
 		rLen = 0;
-		rLoc = 2686;
+		rLoc = 3912;
 		rType = 0;
 		vrLen = 720;
 		vrLoc = 1321;
