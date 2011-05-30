@@ -2,6 +2,7 @@
 
 #include "cv.h"
 #include "highgui.h"
+#include "ColorSetting.h"
 
 #include <iostream>
 #include <cstdio>
@@ -15,35 +16,22 @@ using namespace std;
 using namespace cv;
 bool first = true;
 
-/*色を取得する関数*/
-int GetColorR(IplImage *srcImage, int x, int y){
-	return ((uchar*)(srcImage->imageData + srcImage->widthStep * y))[x * 3 + 2];
-}
-int GetColorG(IplImage *srcImage, int x, int y){
-	return ((uchar*)(srcImage->imageData + srcImage->widthStep * y))[x * 3 + 1];
-}
-int GetColorB(IplImage *srcImage, int x, int y){
-	return ((uchar*)(srcImage->imageData + srcImage->widthStep * y))[x * 3];
-}
-
-void getRGB(IplImage *srcImage, int x, int y, int *r, int *g, int *b){
-	*r = GetColorR(srcImage, x, y);
-	*g = GetColorG(srcImage, x, y);
-	*b = GetColorB(srcImage, x, y);	
-}
+struct colors {
+	double r;
+	double g;
+	double b;
+};
 
 void Mouse(int event, int x, int y, int flags, void *dstImage){
 	IplImage *srcImage=0,*gauImage=0;
 	srcImage = cvLoadImage("../../00.jpg", CV_LOAD_IMAGE_COLOR);
 	gauImage = cvLoadImage("../../gause.jpg", CV_LOAD_IMAGE_COLOR);
+	ColorSetting colorSetting;
 	int clearCir=20;
 	static bool MOUSE_FLAG= false;
-	int clearR=0,clearG=0,clearB=0;
+	struct colors clearColors = { 0, 0, 0};
+	struct colors gauseColors = { 0, 0, 0};
 	int i=0,j=0;
-	int *gauR,*gauG,*gauB;
-	gauR = (int *)malloc(gauImage->width+ gauImage->height);
-	gauG = (int *)malloc(gauImage->width+ gauImage->height);
-	gauB = (int *)malloc(gauImage->width+ gauImage->height);
 	switch (event) {
 		case CV_EVENT_LBUTTONDOWN:
 			MOUSE_FLAG = true;
@@ -55,16 +43,29 @@ void Mouse(int event, int x, int y, int flags, void *dstImage){
 	if (event == CV_EVENT_MOUSEMOVE && MOUSE_FLAG == true) {
 		for(i=0; i<=clearCir; i++){
 			for(j=0; j<=clearCir-i; j++){
-				getRGB(srcImage, x+i, y+j, &clearR, &clearG, &clearB);
-				/*gauR+ = GetColorR(gauImage, x+i, y+j);
-				gauG[i][j] = GetColorG(gauImage, x+i, y+j);
-				gauB[i][j] = GetColorB(gauImage, x+i, y+i);*/
-				cvSet2D(dstImage,j+y,i+x,CV_RGB(clearR,clearG,clearB));
-				getRGB(srcImage, x-i, y-j, &clearR, &clearG, &clearB);
-				cvSet2D(dstImage,y-j,x-i,CV_RGB(clearR,clearG,clearB));
+				colorSetting.getRGB(srcImage, x+i, y+j, &clearColors.r, &clearColors.g, &clearColors.b);
+				cvSet2D(dstImage,j+y,i+x,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
+				colorSetting.getRGB(srcImage, x-i, y-j, &clearColors.r, &clearColors.g, &clearColors.b);
+				cvSet2D(dstImage,y-j,x-i,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
+				colorSetting.getRGB(srcImage, x+i, y-j, &clearColors.r, &clearColors.g, &clearColors.b);
+				cvSet2D(dstImage,y-j,x+i,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
+				colorSetting.getRGB(srcImage, x-i, y+j, &clearColors.r, &clearColors.g, &clearColors.b);
+				cvSet2D(dstImage,y+j,x-i,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
 			}
 		}
 		cvShowImage("dst", dstImage);
+		for(i=0; i<=clearCir; i++){
+			for(j=0; j<=clearCir-i; j++){
+				colorSetting.getRGB(gauImage, x+i, y+j, &gauseColors.r, &gauseColors.g, &gauseColors.b);
+				cvSet2D(dstImage,j+y,i+x,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
+				colorSetting.getRGB(gauImage, x-i, y-j, &gauseColors.r, &gauseColors.g, &gauseColors.b);
+				cvSet2D(dstImage,y-j,x-i,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
+				colorSetting.getRGB(gauImage, x+i, y-j, &gauseColors.r, &gauseColors.g, &gauseColors.b);
+				cvSet2D(dstImage,y-j,x+i,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
+				colorSetting.getRGB(gauImage, x-i, y+j, &gauseColors.r, &gauseColors.g, &gauseColors.b);
+				cvSet2D(dstImage,y+j,x-i,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
+			}
+		}
 	}
 }
 
@@ -79,9 +80,10 @@ String nestedCascadeName =
 
 int main( int argc, const char** argv )
 {
-	int setR=0,setG=0,setB=0;
-	int extent=5;	//ぼやけ度
+	struct colors sets = { 0, 0, 0};
+	int extent=10;	//ぼやけ度
 	
+	ColorSetting colorSetting;
     CvCapture* capture = 0;
     Mat frame, frameCopy, image;
     const String scaleOpt = "--scale=";
@@ -100,31 +102,49 @@ int main( int argc, const char** argv )
 	int i=0,j=0,k=0,l=0;
 	for (i=0; i<srcImage->width; i++) {
 		for (j=0; j<srcImage->height; j++) {
-			int sumPixel_r= 0,sumPixel_g= 0, sumPixel_b= 0;
+			struct colors sumPixel = { 0, 0, 0};
 			int pixCnt = 0;
 			for(k=0; k<=extent; k++){
 				for(l=0; l<=extent-k; l++){
 					if (i+k <= srcImage->width && j+l <= srcImage->height) {
-						sumPixel_r += GetColorR(srcImage, i+k, j+l);
-						sumPixel_g += GetColorG(srcImage, i+k, j+l);
-						sumPixel_b += GetColorB(srcImage, i+k, j+l);
+						sumPixel.r += colorSetting.GetColorR(srcImage, i+k, j+l);
+						sumPixel.g += colorSetting.GetColorG(srcImage, i+k, j+l);
+						sumPixel.b += colorSetting.GetColorB(srcImage, i+k, j+l);
 						pixCnt++;
 					}
 					if (extent != 0) {
 						if(i-k >= 0 && j-l >=0){
 							//printf("(%d,%d:%d,%d:%d)\n",k,l,i,j,j-l);
-							sumPixel_r += GetColorR(srcImage, i-k, j-l);
-							sumPixel_g += GetColorG(srcImage, i-k, j-l);
-							sumPixel_b += GetColorB(srcImage, i-k, j-l);
+							sumPixel.r += colorSetting.GetColorR(srcImage, i-k, j-l);
+							sumPixel.g += colorSetting.GetColorG(srcImage, i-k, j-l);
+							sumPixel.b += colorSetting.GetColorB(srcImage, i-k, j-l);
+							pixCnt++;
+						}
+					}
+					if (extent != 0) {
+						if(i+k <= srcImage->width && j-l >=0){
+							//printf("(%d,%d:%d,%d:%d)\n",k,l,i,j,j-l);
+							sumPixel.r += colorSetting.GetColorR(srcImage, i+k, j-l);
+							sumPixel.g += colorSetting.GetColorG(srcImage, i+k, j-l);
+							sumPixel.b += colorSetting.GetColorB(srcImage, i+k, j-l);
+							pixCnt++;
+						}
+					}
+					if (extent != 0) {
+						if(i-k >= 0 && j+l <=srcImage->height){
+							//printf("(%d,%d:%d,%d:%d)\n",k,l,i,j,j-l);
+							sumPixel.r += colorSetting.GetColorR(srcImage, i-k, j+l);
+							sumPixel.g += colorSetting.GetColorG(srcImage, i-k, j+l);
+							sumPixel.b += colorSetting.GetColorB(srcImage, i-k, j+l);
 							pixCnt++;
 						}
 					}
 				}
 			}
-			setR = sumPixel_r / pixCnt;
-			setG = sumPixel_g / pixCnt;
-			setB = sumPixel_b / pixCnt;
-			cvSet2D(dstImage,j,i,CV_RGB(setR,setG,setB));
+			sets.r = sumPixel.r / pixCnt;
+			sets.g = sumPixel.g / pixCnt;
+			sets.b = sumPixel.b / pixCnt;
+			cvSet2D(dstImage,j,i,CV_RGB(sets.r,sets.g,sets.b));
 		}
 	}
 	
