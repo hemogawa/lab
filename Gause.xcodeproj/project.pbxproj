@@ -13,6 +13,7 @@
 		3C3A875E132298FB0078C2D6 /* libcvaux.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3A875D132298FB0078C2D6 /* libcvaux.dylib */; };
 		3C3A87A91322A5710078C2D6 /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3C3A87A71322A5710078C2D6 /* haarcascade_frontalface_alt.xml */; };
 		3C3A87AA1322A5710078C2D6 /* haarcascade_eye_tree_eyeglasses.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3C3A87A81322A5710078C2D6 /* haarcascade_eye_tree_eyeglasses.xml */; };
+		3C8C43DA1393818F002395D0 /* ColorSetting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C43D81393818F002395D0 /* ColorSetting.cpp */; };
 		3CB63845131EB4D2002D8135 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB63844131EB4D2002D8135 /* OpenGL.framework */; };
 		3CB63849131EB4EC002D8135 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB63848131EB4EC002D8135 /* GLUT.framework */; };
 		3CB6384E131EB555002D8135 /* OpenCVSample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */; };
@@ -29,6 +30,8 @@
 		3C3A88B71323B5420078C2D6 /* features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = features.h; path = "../../OpenCV-2.1.0/apps/traincascade/features.h"; sourceTree = SOURCE_ROOT; };
 		3C3A88B81323B57A0078C2D6 /* lbpfeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lbpfeatures.h; path = "../../OpenCV-2.1.0/apps/traincascade/lbpfeatures.h"; sourceTree = SOURCE_ROOT; };
 		3C3A88B91323B57A0078C2D6 /* boost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = boost.h; path = "../../OpenCV-2.1.0/apps/traincascade/boost.h"; sourceTree = SOURCE_ROOT; };
+		3C8C43D81393818F002395D0 /* ColorSetting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColorSetting.cpp; sourceTree = "<group>"; };
+		3C8C43D91393818F002395D0 /* ColorSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSetting.h; sourceTree = "<group>"; };
 		3CB6383D131EB46B002D8135 /* OpenCVSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB63840131EB46B002D8135 /* OpenCVSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCVSample-Info.plist"; sourceTree = "<group>"; };
 		3CB63844131EB4D2002D8135 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
@@ -54,25 +57,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3CB6382F131EB458002D8135 = {
+		3C8C43EE13938557002395D0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3CB6384C131EB555002D8135 /* OpenCVSample.h */,
+				3CB6384D131EB555002D8135 /* OpenCVSample.cpp */,
+				3C8C43D81393818F002395D0 /* ColorSetting.cpp */,
+				3C8C43D91393818F002395D0 /* ColorSetting.h */,
 				3C3A88B81323B57A0078C2D6 /* lbpfeatures.h */,
 				3C3A88B91323B57A0078C2D6 /* boost.h */,
 				3C3A88B61323B5420078C2D6 /* haarfeatures.h */,
 				3C3A88B71323B5420078C2D6 /* features.h */,
-				3C3A87A71322A5710078C2D6 /* haarcascade_frontalface_alt.xml */,
-				3C3A87A81322A5710078C2D6 /* haarcascade_eye_tree_eyeglasses.xml */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		3C8C43EF13938581002395D0 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				3CB63844131EB4D2002D8135 /* OpenGL.framework */,
+				3CB63848131EB4EC002D8135 /* GLUT.framework */,
 				3C3A875D132298FB0078C2D6 /* libcvaux.dylib */,
 				3C3A875B132298DB0078C2D6 /* libhighgui.dylib */,
 				3C3A8759132298A80078C2D6 /* libcxcore.dylib */,
 				3C3A8757132298650078C2D6 /* libcv.dylib */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
+		3CB6382F131EB458002D8135 = {
+			isa = PBXGroup;
+			children = (
+				3C8C43EF13938581002395D0 /* FrameWorks */,
+				3C8C43EE13938557002395D0 /* Source */,
+				3C3A87A71322A5710078C2D6 /* haarcascade_frontalface_alt.xml */,
+				3C3A87A81322A5710078C2D6 /* haarcascade_eye_tree_eyeglasses.xml */,
 				3CB6383E131EB46B002D8135 /* Products */,
 				3CB63840131EB46B002D8135 /* OpenCVSample-Info.plist */,
-				3CB63844131EB4D2002D8135 /* OpenGL.framework */,
-				3CB63848131EB4EC002D8135 /* GLUT.framework */,
-				3CB6384C131EB555002D8135 /* OpenCVSample.h */,
-				3CB6384D131EB555002D8135 /* OpenCVSample.cpp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CB6384E131EB555002D8135 /* OpenCVSample.cpp in Sources */,
+				3C8C43DA1393818F002395D0 /* ColorSetting.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
