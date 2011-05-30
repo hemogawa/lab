@@ -15,6 +15,8 @@
 using namespace std;
 using namespace cv;
 bool first = true;
+int clearCir=90;
+int mouseX = 50, mouseY = 50;
 
 struct colors {
 	double r;
@@ -22,51 +24,63 @@ struct colors {
 	double b;
 };
 
-void Mouse(int event, int x, int y, int flags, void *dstImage){
-	IplImage *srcImage=0,*gauImage=0;
-	srcImage = cvLoadImage("../../00.jpg", CV_LOAD_IMAGE_COLOR);
-	gauImage = cvLoadImage("../../gause.jpg", CV_LOAD_IMAGE_COLOR);
+void drawClearSpot(void *dstImg, IplImage *clImg, IplImage *gauImg, int x, int y, int radius){
 	ColorSetting colorSetting;
-	int clearCir=20;
-	static bool MOUSE_FLAG= false;
+	int i,j;
 	struct colors clearColors = { 0, 0, 0};
 	struct colors gauseColors = { 0, 0, 0};
+	for(i=0; i<=radius; i++){
+		for(j=0; j<=radius-i; j++){
+			if(x+i+radius < clImg ->width && y+j+radius < clImg->height){
+				colorSetting.getRGB(clImg, x+i, y+j, &clearColors.r, &clearColors.g, &clearColors.b);
+				cvSet2D(dstImg,j+y,i+x,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
+			}
+			if(x-i-radius > 0 && y-i-radius > 0){
+				colorSetting.getRGB(clImg, x-i, y-j, &clearColors.r, &clearColors.g, &clearColors.b);
+				cvSet2D(dstImg,y-j,x-i,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
+			}
+			if( x+i+radius < clImg ->width && y-j-radius >0){
+				colorSetting.getRGB(clImg, x+i, y-j, &clearColors.r, &clearColors.g, &clearColors.b);
+				cvSet2D(dstImg,y-j,x+i,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
+			}
+			if( x-i-radius > 0 && y+j+radius < clImg ->height){
+				colorSetting.getRGB(clImg, x-i, y+j, &clearColors.r, &clearColors.g, &clearColors.b);
+				cvSet2D(dstImg,y+j,x-i,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
+			}
+		}
+	}
+	cvShowImage("dst", dstImg);
+	for(i=0; i<=radius; i++){
+		for(j=0; j<=radius-i; j++){
+			if(x+i+radius < clImg ->width && y+j+radius < clImg->height){
+				colorSetting.getRGB(gauImg, x+i, y+j, &gauseColors.r, &gauseColors.g, &gauseColors.b);
+				cvSet2D(dstImg,j+y,i+x,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
+			}
+			if(x-i-radius > 0 && y-i-radius > 0){
+				colorSetting.getRGB(gauImg, x-i, y-j, &gauseColors.r, &gauseColors.g, &gauseColors.b);
+				cvSet2D(dstImg,y-j,x-i,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
+			}
+			if( x+i+radius < clImg ->width && y-j-radius >0){
+				colorSetting.getRGB(gauImg, x+i, y-j, &gauseColors.r, &gauseColors.g, &gauseColors.b);
+				cvSet2D(dstImg,y-j,x+i,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
+			}
+			if( x-i-radius > 0 && y+j+radius < clImg ->height){
+				colorSetting.getRGB(gauImg, x-i, y+j, &gauseColors.r, &gauseColors.g, &gauseColors.b);
+				cvSet2D(dstImg,y+j,x-i,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
+			}	
+		}
+	}	
+}
+
+void Mouse(int event, int x, int y, int flags, void *dstImage){
+	IplImage *srcImage, *gauImage;
+	srcImage = cvLoadImage("../../00.png", CV_LOAD_IMAGE_COLOR);
+	gauImage = cvLoadImage("../../gause.png", CV_LOAD_IMAGE_COLOR);
+	mouseX = x; mouseY = y;
+	ColorSetting colorSetting;
 	int i=0,j=0;
-	switch (event) {
-		case CV_EVENT_LBUTTONDOWN:
-			MOUSE_FLAG = true;
-			break;
-		case CV_EVENT_LBUTTONUP:
-			MOUSE_FLAG = false;
-			break;
-	}
-	if (event == CV_EVENT_MOUSEMOVE && MOUSE_FLAG == true) {
-		for(i=0; i<=clearCir; i++){
-			for(j=0; j<=clearCir-i; j++){
-				colorSetting.getRGB(srcImage, x+i, y+j, &clearColors.r, &clearColors.g, &clearColors.b);
-				cvSet2D(dstImage,j+y,i+x,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
-				colorSetting.getRGB(srcImage, x-i, y-j, &clearColors.r, &clearColors.g, &clearColors.b);
-				cvSet2D(dstImage,y-j,x-i,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
-				colorSetting.getRGB(srcImage, x+i, y-j, &clearColors.r, &clearColors.g, &clearColors.b);
-				cvSet2D(dstImage,y-j,x+i,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
-				colorSetting.getRGB(srcImage, x-i, y+j, &clearColors.r, &clearColors.g, &clearColors.b);
-				cvSet2D(dstImage,y+j,x-i,CV_RGB(clearColors.r,clearColors.g,clearColors.b));
-			}
-		}
-		cvShowImage("dst", dstImage);
-		for(i=0; i<=clearCir; i++){
-			for(j=0; j<=clearCir-i; j++){
-				colorSetting.getRGB(gauImage, x+i, y+j, &gauseColors.r, &gauseColors.g, &gauseColors.b);
-				cvSet2D(dstImage,j+y,i+x,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
-				colorSetting.getRGB(gauImage, x-i, y-j, &gauseColors.r, &gauseColors.g, &gauseColors.b);
-				cvSet2D(dstImage,y-j,x-i,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
-				colorSetting.getRGB(gauImage, x+i, y-j, &gauseColors.r, &gauseColors.g, &gauseColors.b);
-				cvSet2D(dstImage,y-j,x+i,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
-				colorSetting.getRGB(gauImage, x-i, y+j, &gauseColors.r, &gauseColors.g, &gauseColors.b);
-				cvSet2D(dstImage,y+j,x-i,CV_RGB(gauseColors.r,gauseColors.g,gauseColors.b));
-			}
-		}
-	}
+	if (event == CV_EVENT_MOUSEMOVE) 
+		drawClearSpot(dstImage, srcImage, gauImage, x, y, clearCir);
 }
 
 int detectAndDraw( Mat& img,
@@ -94,9 +108,9 @@ int main( int argc, const char** argv )
     size_t nestedCascadeOptLen = nestedCascadeOpt.length();
     String inputName;
 	FILE *fp;
-	IplImage *srcImage=0,*dstImage=0;
+	IplImage *srcImage=0,*dstImage=0,*gauImage=0;
 	
-	srcImage = cvLoadImage("../../00.jpg", CV_LOAD_IMAGE_COLOR);
+	srcImage = cvLoadImage("../../00.png", CV_LOAD_IMAGE_COLOR);
 	dstImage = cvCreateImage(cvSize(srcImage->width, srcImage->height), IPL_DEPTH_8U, 3);
 	cvNamedWindow("dst", CV_WINDOW_AUTOSIZE);
 	int i=0,j=0,k=0,l=0;
@@ -153,11 +167,9 @@ int main( int argc, const char** argv )
     double scale = 1;
 	int width,baseWidth = 190, zoomeStep = 0;
 	cvShowImage("dst", dstImage);
-	cvSaveImage("../../gause.jpg", dstImage);
+	cvSaveImage("../../gause.png", dstImage);
+	gauImage = cvCloneImage(dstImage);
 	cvSetMouseCallback("dst", Mouse,dstImage);
-	cvWaitKey(0);
-	cvDestroyWindow("dst");
-	cvReleaseImage(&dstImage);
 	
     /*for( int i = 1; i < argc; i++ )
 	 {
@@ -202,7 +214,7 @@ int main( int argc, const char** argv )
             capture = cvCaptureFromAVI( inputName.c_str() );
     }
     else
-        image = imread( "lena.jpg", 1 );
+        image = imread( "lena.png", 1 );
 	
 	
     if( capture )
@@ -225,16 +237,18 @@ int main( int argc, const char** argv )
 				if((width-baseWidth)/20 >= zoomeStep+1){
 					zoomeStep++;
 					printf("ZoomeIn!%d:",zoomeStep);
-					sprintf(buff, "osascript scripts/zoomeIn.scpt %d",zoomeStep);
+					//sprintf(buff, "osascript scripts/zoomeIn.scpt %d",zoomeStep);
 					//sprintf(buff, "osascript scripts/zoomeIn_top.scpt %d",zoomeStep);
-					system(buff);
+					//system(buff);
 				}else if ((width-baseWidth)/20 < zoomeStep) {
 					printf("ZoomeOut!%d:",zoomeStep);
 					zoomeStep--;
-					sprintf(buff, "osascript scripts/zoomeOut.scpt %d",zoomeStep);
+					//sprintf(buff, "osascript scripts/zoomeOut.scpt %d",zoomeStep);
 					//sprintf(buff, "osascript scripts/zoomeOut_top.scpt %d",zoomeStep);
-					system(buff);
+					//system(buff);
 				}
+				clearCir = 90 - (zoomeStep * 5);
+				drawClearSpot(dstImage, srcImage, gauImage, mouseX, mouseY, clearCir);
 			}
 			/*fp = fopen("scripts/log.txt","a");
 			fprintf(fp,"%d->%d\n",baseWidth,width);
@@ -283,7 +297,10 @@ int main( int argc, const char** argv )
             }
         }
     }
-    return 0;
+   	cvWaitKey(0);
+	cvDestroyWindow("dst");
+	cvReleaseImage(&dstImage);
+	return 0;
 }
 
 int detectAndDraw( Mat& img,
@@ -291,37 +308,24 @@ int detectAndDraw( Mat& img,
 				  double scale)
 {
     int i = 0,faceSize = 190;
-    double t = 0;
     vector<Rect> faces;
-    const static Scalar colors[] =  { CV_RGB(0,0,255),
-        CV_RGB(0,128,255),
-        CV_RGB(0,255,255),
-        CV_RGB(0,255,0),
-        CV_RGB(255,128,0),
-        CV_RGB(255,255,0),
-        CV_RGB(255,0,0),
-        CV_RGB(255,0,255)} ;
     Mat gray, smallImg( cvRound (img.rows/scale), cvRound(img.cols/scale), CV_8UC1 );
 	
     cvtColor( img, gray, CV_BGR2GRAY );
     resize( gray, smallImg, smallImg.size(), 0, 0, INTER_LINEAR );
     equalizeHist( smallImg, smallImg );
 	
-    t = (double)cvGetTickCount();
     cascade.detectMultiScale( smallImg, faces,
 							 1.1, 2, 0
 							 //|CV_HAAR_FIND_BIGGEST_OBJECT
 							 //|CV_HAAR_DO_ROUGH_SEARCH
 							 |CV_HAAR_SCALE_IMAGE
 							 ,
-							 Size(30, 30) );
-    t = (double)cvGetTickCount() - t;
-    printf( "new detection time = %g ms\n", t/((double)cvGetTickFrequency()*1000.) );
+							 Size(190, 190) );
+    //printf( "new detection time = %g ms\n", t/((double)cvGetTickFrequency()*1000.) );
     for( vector<Rect>::const_iterator r = faces.begin(); r != faces.end(); r++, i++ )
     {
-		if (r->width > 190) {
-			faceSize = r->width;
-		}
+		faceSize = r->width;
     }  
 	return faceSize;
 }

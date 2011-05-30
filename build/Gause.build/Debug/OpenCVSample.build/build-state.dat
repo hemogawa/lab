@@ -1,7 +1,7 @@
 TOpenCVSample
 v7
 r0
-t328458835.196722
+t328480127.844628
 cCheck dependencies
 cProcessInfoPlistFile /Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app/Contents/Info.plist OpenCVSample-Info.plist
 cCpResource build/Debug/OpenCVSample.app/Contents/Resources/haarcascade_frontalface_alt.xml haarcascade_frontalface_alt.xml
@@ -86,9 +86,9 @@ i"highgui.h"
 i"cvaux.h"
 
 N/Users/kikugawamariko/XCodeProjects/Gause_single/OpenCVSample.cpp
-c000000004DE387560000000000002A12
-t1306756950
-s10770
+c000000004DE3FDFA0000000000002B26
+t1306787322
+s11046
 i"cv.h"
 i"highgui.h"
 i"ColorSetting.h"
@@ -97,7 +97,7 @@ i<cstdio>
 i<cstdlib>
 
 N/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app
-t1306756952
+t1306787327
 s102
 
 N/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app/Contents/Info.plist
@@ -105,8 +105,8 @@ t1301450141
 s1228
 
 N/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample
-t1306756952
-s52504
+t1306787327
+s47684
 
 N/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app/Contents/PkgInfo
 t1301450141
@@ -130,8 +130,8 @@ t1306741267
 s254
 
 N/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.o
-t1306756951
-s237784
+t1306787327
+s234564
 
 N/Users/kikugawamariko/XCodeProjects/Gause_single/haarcascade_eye_tree_eyeglasses.xml
 c000000004BBA8D56000000000010B57B
@@ -248,7 +248,7 @@ s895
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies328458835#328458835#0(0"0(0#1#0"2513076880#0"0#
+lSLF07#2@18"Check dependencies328480124#328480124#0(0"0(0#1#0"2513076880#0"0#
 
 CCompileC build/Gause.build/Debug/OpenCVSample.build/Objects-normal/i386/ColorSetting.o /Users/kikugawamariko/XCodeProjects/Gause_single/ColorSetting.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s328448263.275933
@@ -264,8 +264,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/kikugawamariko/XCodeProjects/Gause_single/ColorSetting.cpp328448263#328448264#0(0"0(0#0#65"/Users/kikugawamariko/XCodeProjects/Gause_single/ColorSetting.cpp2513076880#1448"    cd /Users/kikugawamariko/XCodeProjects/Gause_single    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/OpenCVSample-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/OpenCVSample-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/OpenCVSample-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/OpenCVSample-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/include -I/usr/local/include/opencv -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/DerivedSources -c /Users/kikugawamariko/XCodeProjects/Gause_single/ColorSetting.cpp -o /Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/Objects-normal/i386/ColorSetting.o0#
 
 CCompileC build/Gause.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.o /Users/kikugawamariko/XCodeProjects/Gause_single/OpenCVSample.cpp normal i386 c++ com.apple.compilers.gcc.4_2
-s328449751.955257
-e328449751.956389
+s328480124.842829
+e328480127.088613
 r1
 xCompileC
 xbuild/Gause.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.o
@@ -274,7 +274,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/kikugawamariko/XCodeProjects/Gause_single/OpenCVSample.cpp328449751#328449751#0(0"0(0#0#65"/Users/kikugawamariko/XCodeProjects/Gause_single/OpenCVSample.cpp2513076880#1448"    cd /Users/kikugawamariko/XCodeProjects/Gause_single    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/OpenCVSample-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/OpenCVSample-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/OpenCVSample-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/OpenCVSample-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/include -I/usr/local/include/opencv -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/DerivedSources -c /Users/kikugawamariko/XCodeProjects/Gause_single/OpenCVSample.cpp -o /Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.o0#
+lSLF07#2@73"Compile /Users/kikugawamariko/XCodeProjects/Gause_single/OpenCVSample.cpp328480124#328480127#0(0"0(0#0#65"/Users/kikugawamariko/XCodeProjects/Gause_single/OpenCVSample.cpp2513076880#1448"    cd /Users/kikugawamariko/XCodeProjects/Gause_single    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/OpenCVSample-generated-files.hmap -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/OpenCVSample-own-target-headers.hmap -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/OpenCVSample-all-target-headers.hmap -iquote /Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/OpenCVSample-project-headers.hmap -F/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/include -I/usr/local/include/opencv -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/DerivedSources/i386 -I/Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/DerivedSources -c /Users/kikugawamariko/XCodeProjects/Gause_single/OpenCVSample.cpp -o /Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.o0#
 
 CCompileC build/Gause.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.o /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/OpenCVSample.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s324274005.996213
@@ -296,14 +296,14 @@ CCpResource build/Debug/OpenCVSample.app/Contents/Resources/haarcascade_frontalf
 r0
 
 CLd /Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample normal i386
-s328449751.956537
-e328449752.005031
+s328480127.088789
+e328480127.810745
 r1
 xLd
 x/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample
 xnormal
 xi386
-lSLF07#2@110"Link /Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample328449751#328449752#0(0"0(0#0#0"2513076880#777"    cd /Users/kikugawamariko/XCodeProjects/Gause_single    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug -L/Users/kikugawamariko/XCodeProjects/Gause_single/../../OpenCV-2.1.0/lib/Release -F/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug -filelist /Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework OpenGL -framework GLUT -lcv -lcxcore -lhighgui -lcvaux -o /Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample0#
+lSLF07#2@110"Link /Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample328480127#328480127#0(0"0(0#0#0"2513076880#777"    cd /Users/kikugawamariko/XCodeProjects/Gause_single    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug -L/Users/kikugawamariko/XCodeProjects/Gause_single/../../OpenCV-2.1.0/lib/Release -F/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug -filelist /Users/kikugawamariko/XCodeProjects/Gause_single/build/Gause.build/Debug/OpenCVSample.build/Objects-normal/i386/OpenCVSample.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework AppKit -framework OpenGL -framework GLUT -lcv -lcxcore -lhighgui -lcvaux -o /Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample0#
 
 CLd /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app/Contents/MacOS/OpenCVSample normal i386
 s328430974.200771
@@ -322,12 +322,12 @@ CProcessInfoPlistFile /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/
 r0
 
 CTouch /Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app
-s328449752.005119
-e328449752.007634
+s328480127.810914
+e328480127.844581
 r1
 xTouch
 x/Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app
-lSLF07#2@83"Touch /Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app328449752#328449752#0(0"0(0#0#0"2513076880#156"    cd /Users/kikugawamariko/XCodeProjects/Gause_single    /usr/bin/touch -c /Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app0#
+lSLF07#2@83"Touch /Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app328480127#328480127#0(0"0(0#0#0"2513076880#156"    cd /Users/kikugawamariko/XCodeProjects/Gause_single    /usr/bin/touch -c /Users/kikugawamariko/XCodeProjects/Gause_single/build/Debug/OpenCVSample.app0#
 
 CTouch /Users/kikugawamariko/XCodeProjects/OpenGLSample_cp/build/Debug/OpenCVSample.app
 s328430975.502948
