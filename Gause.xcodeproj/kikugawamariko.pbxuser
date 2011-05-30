@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	3C206D3B138EE88200A840E2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 59";
+		rLen = 0;
+		rLoc = 1648;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 0;
+	};
+	3C3A877113229CEC0078C2D6 /* facedetect.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = facedetect.cpp;
+		path = "/Users/kikugawamariko/OpenCV-2.1.0/samples/c/facedetect.cpp";
+		sourceTree = "<absolute>";
+	};
+	3C3A87A71322A5710078C2D6 /* haarcascade_frontalface_alt.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {628, 341549}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2044, 366}";
+		};
+	};
+	3C3A87A81322A5710078C2D6 /* haarcascade_eye_tree_eyeglasses.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {628, 431210}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{11701, 513}";
+			sepNavWindowFrame = "{{15, 441}, {609, 332}}";
+		};
+	};
+	3C3A88531322B9AF0078C2D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3C3A877113229CEC0078C2D6 /* facedetect.cpp */;
+		name = "facedetect.cpp: 12";
+		rLen = 0;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 191;
+		vrLoc = 37;
+	};
+	3C3A886E1323A60E0078C2D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3C3A87A71322A5710078C2D6 /* haarcascade_frontalface_alt.xml */;
+		name = "haarcascade_frontalface_alt.xml: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 2044;
+	};
+	3C3A886F1323A60E0078C2D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3C3A88701323A60E0078C2D6 /* cv.hpp */;
+		name = "cv.hpp: 681";
+		rLen = 39;
+		rLoc = 30890;
+		rType = 0;
+		vrLen = 519;
+		vrLoc = 30835;
+	};
+	3C3A88701323A60E0078C2D6 /* cv.hpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = cv.hpp;
+		path = /usr/local/include/opencv/cv.hpp;
+		sourceTree = "<absolute>";
+	};
+	3C3A88D61323BAD20078C2D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384C131EB555002D8135 /* OpenCVSample.h */;
+		name = "OpenCVSample.h: 9";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 140;
+		vrLoc = 0;
+	};
+	3C8C43B613937580002395D0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 59";
+		rLen = 0;
+		rLoc = 1648;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 37;
+	};
+	3CB63831131EB458002D8135 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3CB6383F131EB46B002D8135 /* OpenCVSample */;
+		activeTarget = 3CB6383C131EB46B002D8135 /* OpenCVSample */;
+		addToTargets = (
+			3CB6383C131EB46B002D8135 /* OpenCVSample */,
+		);
+		codeSenseManager = 3CB63836131EB458002D8135 /* Code sense */;
+		executables = (
+			3CB6383F131EB46B002D8135 /* OpenCVSample */,
+		);
+		ignoreBreakpointsInProjectsDict = {
+		};
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					265,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					296,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 328430969;
+			PBXWorkspaceStateSaveDate = 328430969;
+		};
+		perUserProjectItems = {
+			3C206D3B138EE88200A840E2 = 3C206D3B138EE88200A840E2 /* PBXTextBookmark */;
+			3C3A88531322B9AF0078C2D6 = 3C3A88531322B9AF0078C2D6 /* PBXTextBookmark */;
+			3C3A886E1323A60E0078C2D6 = 3C3A886E1323A60E0078C2D6 /* PBXTextBookmark */;
+			3C3A886F1323A60E0078C2D6 = 3C3A886F1323A60E0078C2D6 /* PBXTextBookmark */;
+			3C3A88D61323BAD20078C2D6 = 3C3A88D61323BAD20078C2D6 /* PBXTextBookmark */;
+			3C8C43B613937580002395D0 /* PBXTextBookmark */ = 3C8C43B613937580002395D0 /* PBXTextBookmark */;
+			3CE58B451354187500987C32 = 3CE58B451354187500987C32 /* PBXTextBookmark */;
+			3CE58B471354187500987C32 = 3CE58B471354187500987C32 /* PBXTextBookmark */;
+			3CE58B4A1354187500987C32 = 3CE58B4A1354187500987C32 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 3CB63835131EB458002D8135 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3CB63835131EB458002D8135 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3CB63836131EB458002D8135 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3CB6383C131EB46B002D8135 /* OpenCVSample */ = {
+		activeExec = 0;
+		executables = (
+			3CB6383F131EB46B002D8135 /* OpenCVSample */,
+		);
+	};
+	3CB6383F131EB46B002D8135 /* OpenCVSample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = OpenCVSample;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$mxcsr = 1;
+		};
+	};
+	3CB6384C131EB555002D8135 /* OpenCVSample.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {514, 191}}";
+			sepNavSelRange = "{139, 0}";
+			sepNavVisRange = "{0, 140}";
+		};
+	};
+	3CB6384D131EB555002D8135 /* OpenCVSample.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {572, 4047}}";
+			sepNavSelRange = "{1648, 0}";
+			sepNavVisRange = "{37, 383}";
+		};
+	};
+	3CE58B451354187500987C32 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CE58B461354187500987C32 /* lkdemo.c */;
+		name = "lkdemo.c: 150";
+		rLen = 0;
+		rLoc = 4451;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 4109;
+	};
+	3CE58B461354187500987C32 /* lkdemo.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = lkdemo.c;
+		path = "/Users/kikugawamariko/OpenCV-2.1.0/samples/c/lkdemo.c";
+		sourceTree = "<absolute>";
+	};
+	3CE58B471354187500987C32 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CE58B481354187500987C32 /* squares.c */;
+		name = "squares.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 6196;
+	};
+	3CE58B481354187500987C32 /* squares.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = squares.c;
+		path = "/Users/kikugawamariko/OpenCV-2.1.0/samples/c/squares.c";
+		sourceTree = "<absolute>";
+	};
+	3CE58B4A1354187500987C32 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3CB6384D131EB555002D8135 /* OpenCVSample.cpp */;
+		name = "OpenCVSample.cpp: 59";
+		rLen = 0;
+		rLoc = 1648;
+		rType = 0;
+		vrLen = 720;
+		vrLoc = 1321;
+	};
+}
